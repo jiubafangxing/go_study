@@ -2,7 +2,6 @@
 package main
 import(
 	"log"
-	"fmt"
 )
 type stringer interface{
 	toString()string
@@ -18,12 +17,16 @@ func (d data)toString()string{
 
 func test(){
 	var d data = data{
-		age:1
+		age:1,
 	}
 	var d1 interface{} = d
 	if xv, ok := d1.(stringer);ok{
 		log.Println(xv)
 	}
+	if n, ok := d1.(data);ok{
+		log.Println(n)
+	}
+	
 }
 
 func main(){
