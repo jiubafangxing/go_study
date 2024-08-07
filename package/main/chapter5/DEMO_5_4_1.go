@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_4_1test(){
 	dict :=  make(map[string]int)
 	dict["a"] = 1
 	dict["1"]= 2
@@ -17,6 +17,6 @@ func test(){
 	log.Println(phoneNum[1])
 }
 
-func main(){
-	test()
+func DEMO_5_4_1main(){
+	DEMO_5_4_1test()
 }

@@ -1,5 +1,5 @@
 	
-package main
+package chapter6
 import(
 	"log"
 )
@@ -10,7 +10,7 @@ type User struct{
 func (u User)changeAge(){
 	u.age +=1
 }
-func test(){
+func DEMO_6_4_1test(){
 	u := User{
 		age:1,
 	}
@@ -25,6 +25,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_6_4_1main(){
+	DEMO_6_4_1test()
 }

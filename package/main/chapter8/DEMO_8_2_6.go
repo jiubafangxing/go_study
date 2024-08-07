@@ -1,9 +1,9 @@
 	
-package main
+package chapter8
 import(
 	"log"
 )
-func test(){
+func DEMO_8_2_6test(){
 	exit := make(chan struct{})
 	data := make(chan int)
 	go func(){
@@ -20,6 +20,6 @@ func test(){
 	<-exit
 }
 
-func main(){
-	test()
+func DEMO_8_2_6main(){
+	DEMO_8_2_6test()
 }

@@ -1,12 +1,12 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_1_3test(){
 	s := `
 		public class HelloWorld{
-			public static void main(String[] args){
+			public static void DEMO_5_1_3main(String[] args){
 				System.out.println("hello world");
 			}
 		}
@@ -15,6 +15,6 @@ func test(){
 	log.Println(s)
 }
 
-func main(){
-	test()
+func DEMO_5_1_3main(){
+	DEMO_5_1_3test()
 }

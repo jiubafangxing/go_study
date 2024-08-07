@@ -1,6 +1,6 @@
-package main
+package chapter3
 
-func main(){
+func chapter3_3initmain(){
 	type data  struct{
 		name string
 		age int

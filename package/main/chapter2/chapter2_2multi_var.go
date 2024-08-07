@@ -1,6 +1,6 @@
-package main
+package chapter2
 
-func main() {
+func chapter2_2multi_varmain() {
 	var i, j int
 	println(i)
 	println(j)

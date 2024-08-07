@@ -1,6 +1,6 @@
-package main
+package chapter1
 
-func main(){
+func for_break_demomain(){
 	x := 0
 	for x < 10{
 		x++

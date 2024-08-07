@@ -1,11 +1,11 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"runtime"
 	"time"
 )
-func test(){
+func DEMO_8_1_20test(){
 
 	go func(){
 		for i:=0;i< 10;i++{
@@ -18,6 +18,6 @@ func test(){
 	log.Println("end")
 }
 
-func main(){
-	test()
+func DEMO_8_1_20main(){
+	DEMO_8_1_20test()
 }

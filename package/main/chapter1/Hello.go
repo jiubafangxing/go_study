@@ -1,5 +1,5 @@
-package main
+package chapter1
 
-func main(){
+func Hellomain(){
 	println("hello world")
 }

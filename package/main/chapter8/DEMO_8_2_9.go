@@ -1,10 +1,10 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"sync"
 )
-func test(){
+func DEMO_8_2_9test(){
 	c := make(chan int)
 	var send chan <- int = c
 	var rece <- chan int = c
@@ -27,6 +27,6 @@ func test(){
 	wg.Wait()
 }
 
-func main(){
-	test()
+func DEMO_8_2_9main(){
+	DEMO_8_2_9test()
 }

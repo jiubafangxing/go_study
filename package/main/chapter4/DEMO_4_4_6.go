@@ -1,9 +1,9 @@
-package main
+package chapter4
 
 import( 
 	"fmt"
 )
-func test()([]func()){
+func DEMO_4_4_6test()([]func()){
 	var s []func()
 	for i:=0; i<10;i++{
 		s =  append(s, func (){
@@ -15,8 +15,8 @@ func test()([]func()){
 	return s
 }
 
-func main(){
-	sl := test()
+func DEMO_4_4_6main(){
+	sl := DEMO_4_4_6test()
 	for _, f := range sl{
 		f()
 	}

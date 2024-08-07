@@ -1,6 +1,6 @@
-package main
+package chapter2
 
-func main() {
+func chapter2_6short_var3main() {
 	x := 1
 	x, y := 2, 2
 	println(x, y)

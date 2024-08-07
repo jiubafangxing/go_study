@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_1_6test(){
 	var a string 
 	a = "世界你好"
 	for i :=0; i< len(a);i++{
@@ -16,6 +16,6 @@ func test(){
 	}
 }
 
-func main(){
-	test()
+func DEMO_5_1_6main(){
+	DEMO_5_1_6test()
 }

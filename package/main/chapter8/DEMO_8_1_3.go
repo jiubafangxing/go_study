@@ -1,11 +1,11 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"sync"
 	"time"
 )
-func test(){
+func DEMO_8_1_3test(){
 	var wg  sync.WaitGroup
 	for i:=0;i<10; i++{
 		wg.Add(1)
@@ -16,11 +16,11 @@ func test(){
 			log.Println(x)	
 		}()
 	}	
-	println("main")
+	println("DEMO_8_1_3main")
 	wg.Wait()
-	println("main exit")
+	println("DEMO_8_1_3main exit")
 }
 
-func main(){
-	test()
+func DEMO_8_1_3main(){
+	DEMO_8_1_3test()
 }

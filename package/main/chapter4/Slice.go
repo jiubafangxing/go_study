@@ -1,13 +1,13 @@
-package main
+package chapter4
 
-func test(a ...int){
+func Slicetest(a ...int){
 	for i := range a{
 		println(i)
 	}
 }
 
-func main(){
+func Slicemain(){
 	c := [3]int{1,2,3}
-	test(c[:]...)
+	Slicetest(c[:]...)
 }
 

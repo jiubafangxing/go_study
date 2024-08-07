@@ -1,5 +1,5 @@
 	
-package main
+package chapter7
 import(
 	"log"
 )
@@ -17,7 +17,7 @@ type node struct{
 		toString()(string)
 	}
 }
-func test(){
+func DEMO_7_1_5test(){
 	var d interface{
 		toString()(string)
 	} = data1{}
@@ -27,6 +27,6 @@ func test(){
 	log.Println(node1.data.toString())
 }
 
-func main(){
-	test()
+func DEMO_7_1_5main(){
+	DEMO_7_1_5test()
 }

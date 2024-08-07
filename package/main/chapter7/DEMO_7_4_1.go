@@ -1,22 +1,22 @@
-	
-package main
+package chapter7
 
-type N int
+type DEMO_7_4_1N int
 
-type Stringer interface{
-	toString()(string)
+type Stringer interface {
+	toString() string
 }
-func (N) toString()string{
+
+func (DEMO_7_4_1N) toString() string {
 	return "a"
 }
 
-func init(){
-	var _ Stringer = N(0)
+func init() {
+	var _ Stringer = DEMO_7_4_1N(0)
 }
-func test(){
+func DEMO_7_4_1test() {
 
 }
 
-func main(){
-	test()
+func DEMO_7_4_1main() {
+	DEMO_7_4_1test()
 }

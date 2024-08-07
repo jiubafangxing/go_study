@@ -1,5 +1,5 @@
 	
-package main
+package chapter6
 import(
 	"fmt"
 )
@@ -12,12 +12,12 @@ func (n N) ToString()(string){
 }
 
 
-func test(){
+func DEMO_6_1_1test(){
 	var n N = 1
 	println(n.ToString)
 
 }
 
-func main(){
-	test()
+func DEMO_6_1_1main(){
+	DEMO_6_1_1test()
 }

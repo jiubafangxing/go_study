@@ -1,5 +1,5 @@
 	
-package main
+package chapter6
 import(
 	"log"
 	"fmt"
@@ -26,7 +26,7 @@ func (T) printT(){
 	log.Println("t")
 }
 
-func test(a interface{}){
+func DEMO_6_3_1test(a interface{}){
 	t :=reflect.TypeOf(a)
 	log.Println("methods,",t.NumMethod())
 	for i,n :=0, t.NumMethod();i<n;i++{
@@ -35,8 +35,8 @@ func test(a interface{}){
 	}
 }
 
-func main(){
+func DEMO_6_3_1main(){
 	var t T
-	test(t)
-	test(&t)
+	DEMO_6_3_1test(t)
+	DEMO_6_3_1test(&t)
 }

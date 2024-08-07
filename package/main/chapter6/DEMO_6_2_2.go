@@ -1,5 +1,5 @@
 	
-package main
+package chapter6
 import(
 	"log"
 )
@@ -17,11 +17,11 @@ func (m manager) toString()string{
 	return m.user.toString()+"m"
 }
 
-func test(){
+func DEMO_6_2_2test(){
 	m := manager{}
 	log.Println(m.toString())
 }
 
-func main(){
-	test()
+func DEMO_6_2_2main(){
+	DEMO_6_2_2test()
 }

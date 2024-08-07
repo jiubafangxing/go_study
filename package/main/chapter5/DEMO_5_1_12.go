@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_1_12test(){
 	var a byte
 	a = 'a'
 	ra := rune(a)
@@ -12,6 +12,6 @@ func test(){
 	log.Println(sa)
 }
 
-func main(){
-	test()
+func DEMO_5_1_12main(){
+	DEMO_5_1_12test()
 }

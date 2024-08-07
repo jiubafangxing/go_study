@@ -1,5 +1,5 @@
-package main
-func main(){
+package chapter1
+func if_demomain(){
 	x := 10
 	if x> 0{
 		println("x > 0")

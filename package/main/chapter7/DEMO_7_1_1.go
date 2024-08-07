@@ -1,25 +1,27 @@
-	
-package main
-import(
+package chapter7
+
+import (
 	"log"
 )
-type tester interface{
-	test()
-	genStr()(string)
+
+type DEMO_7_1_1tester interface {
+	DEMO_7_1_1test()
+	genStr() string
 }
-type N int
-func (n N)test(){
+type chpter7N int
+
+func (n chpter7N) DEMO_7_1_1test() {
 	log.Println(n)
 }
-func (n *N)genStr()(string){
+func (n *chpter7N) genStr() string {
 	return "adf"
 }
 
-func main(){
-	var n N = 1
-	n.test()
+func DEMO_7_1_1main() {
+	var n chpter7N = 1
+	n.DEMO_7_1_1test()
 	s := n.genStr()
 	log.Println(s)
-	var t tester = &n
-	t.test()
+	var t DEMO_7_1_1tester = &n
+	t.DEMO_7_1_1test()
 }

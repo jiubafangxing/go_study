@@ -1,4 +1,4 @@
-package main
+package chapter1
 
 import "fmt"
 
@@ -13,7 +13,7 @@ type XE struct {
 	name string
 }
 
-func main() {
+func method_extend_demomain() {
 	var xe XE
 	xe.name = "a"
 	xe.inc()

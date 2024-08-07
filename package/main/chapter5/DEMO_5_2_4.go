@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_4test(){
 	a := [...][4]int{
 		{1,2,3,4},
 		{5,56,6,7},
@@ -11,6 +11,6 @@ func test(){
 	log.Printf("#%v",a)
 }
 
-func main(){
-	test()
+func DEMO_5_2_4main(){
+	DEMO_5_2_4test()
 }

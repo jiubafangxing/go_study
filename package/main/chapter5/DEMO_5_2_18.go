@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_18test(){
 	a :=[3]int{1,2,3}
 	b :=a[0:2]
 	log.Printf("b:%p",&b)
@@ -20,6 +20,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_5_2_18main(){
+	DEMO_5_2_18test()
 }

@@ -1,5 +1,5 @@
 	
-package main
+package chapter7
 import(
 	"fmt"
 )
@@ -9,13 +9,13 @@ func (f FuncSetting) String()string{
 	return f()
 }
 
-func test(){
+func DEMO_7_4_2test(){
 	var t fmt.Stringer = FuncSetting(func ()string{
 		return "hello world"
 	})
 	fmt.Println(t)
 }
 
-func main(){
-	test()
+func DEMO_7_4_2main(){
+	DEMO_7_4_2test()
 }

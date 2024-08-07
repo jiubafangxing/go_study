@@ -1,12 +1,12 @@
-package main
+package chapter4
 
-func test(p *int){
+func EscapeHeaptest(p *int){
 	go func(){
 		println(*p)
 	}()
 }
 
-func main(){
+func EscapeHeapmain(){
 	a :=1
-	test(&a)
+	EscapeHeaptest(&a)
 }

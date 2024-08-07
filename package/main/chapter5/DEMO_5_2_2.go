@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_2test(){
 	var a [4]int
 	b := [3]int{}
 	c := [4]int{2:1}
@@ -16,6 +16,6 @@ func test(){
 	log.Println(len(e))
 }
 
-func main(){
-	test()
+func DEMO_5_2_2main(){
+	DEMO_5_2_2test()
 }

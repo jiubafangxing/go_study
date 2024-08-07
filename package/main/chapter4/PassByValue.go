@@ -1,4 +1,4 @@
-package main
+package chapter4
 import(
 	"fmt"
 )
@@ -7,7 +7,7 @@ func CheckParam(a *int){
 }
 
 
-func main(){
+func PassByValuemain(){
 	o :=1
 	a := &o;
 	CheckParam(&o);

@@ -1,8 +1,8 @@
-package main
+package chapter3
 
-func main(){
-	x :=1
-	for x<10 {
-		x++;
+func chapter33_for2main() {
+	x := 1
+	for x < 10 {
+		x++
 	}
 }

@@ -1,12 +1,9 @@
-	
-package main
-import(
-	"log"
-)
-func test(){
+package chapter4
+
+func test() {
 
 }
 
-func main(){
+func main() {
 	test()
 }

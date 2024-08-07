@@ -1,6 +1,6 @@
-package main
+package chapter2
 
-func main() {
+func chapter2_3var_groupmain() {
 	var (
 		a, b int
 		c, d string

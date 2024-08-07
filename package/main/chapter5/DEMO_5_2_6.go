@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_6test(){
 	x, y := 2,3
 	a :=[]*int{&x, &y}
 	b := &a
@@ -12,6 +12,6 @@ func test(){
 	log.Println(*((*b)[0]))
 }
 
-func main(){
-	test()
+func DEMO_5_2_6main(){
+	DEMO_5_2_6test()
 }

@@ -1,5 +1,5 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
@@ -8,7 +8,7 @@ type user struct{
 	name string
 	age int
 }
-func test(){
+func DEMO_5_4_4test(){
 	dict :=map[int]user{
 		1:{"lao1l",1},
 		2:{"manba",2},
@@ -19,6 +19,6 @@ func test(){
 	log.Println(dict)
 }
 
-func main(){
-	test()
+func DEMO_5_4_4main(){
+	DEMO_5_4_4test()
 }

@@ -1,24 +1,24 @@
 	
-package main
+package chapter4
 import(
 	"log"
 )
-func test(){
+func DEMO_4_6_4test(){
  	defer func(){
-		log.Println("test1")
+		log.Println("DEMO_4_6_4test1")
 	}()
  	defer func(){
-		log.Println("test2")
+		log.Println("DEMO_4_6_4test2")
 	}()
 	panic("outter receive")
 }
 
-func main(){
+func DEMO_4_6_4main(){
 	defer func(){
 		if err :=recover(); nil != err{
 			log.Fatalln(err)
 		}
 	}()
-	test()
+	DEMO_4_6_4test()
 
 }

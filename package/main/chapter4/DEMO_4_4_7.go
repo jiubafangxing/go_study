@@ -1,9 +1,9 @@
-package main
+package chapter4
 
 import (
 	"fmt"
 )
-func test()([]func()){
+func DEMO_4_4_7test()([]func()){
 	var arr []func()
 	for i:=0;i<=3;i++ {
 		x := i
@@ -17,8 +17,8 @@ func test()([]func()){
 	return arr
 }
 
-func main(){
-	arr := test()
+func DEMO_4_4_7main(){
+	arr := DEMO_4_4_7test()
 	for _, f := range arr{
 		 f()
 	}

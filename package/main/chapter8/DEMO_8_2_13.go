@@ -1,10 +1,10 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"sync"
 )
-func test(){
+func DEMO_8_2_13test(){
 	var wg sync.WaitGroup
 	wg.Add(2)
 	ch1 := make(chan int)
@@ -47,6 +47,6 @@ func test(){
 	wg.Wait()
 }
 
-func main(){
-	test()
+func DEMO_8_2_13main(){
+	DEMO_8_2_13test()
 }

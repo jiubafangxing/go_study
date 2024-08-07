@@ -1,9 +1,9 @@
 	
-package main
+package chapter4
 import(
 	"log"
 )
-func test(){
+func DEMO_4_6_5test(){
 	defer func(){
 		if err := recover(); nil != err{
 			log.Fatalln(err)
@@ -16,6 +16,6 @@ func test(){
 	
 }
 
-func main(){
-	test()
+func DEMO_4_6_5main(){
+	DEMO_4_6_5test()
 }

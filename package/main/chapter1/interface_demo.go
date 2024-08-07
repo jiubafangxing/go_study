@@ -1,4 +1,4 @@
-package main
+package chapter1
 
 type Animal interface {
 	Eat()
@@ -11,7 +11,7 @@ func (Cat) Eat() {
 	println("cat eat fish")
 }
 
-func main() {
+func interface_demomain() {
 	var cat Cat
 	var an Animal = cat
 	an.Eat()

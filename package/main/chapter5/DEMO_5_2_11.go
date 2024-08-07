@@ -1,14 +1,14 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_11test(){
 	var a []int
 	v := []int{}
 	log.Println(a == nil, v == nil)
 }
 
-func main(){
-	test()
+func DEMO_5_2_11main(){
+	DEMO_5_2_11test()
 }

@@ -1,17 +1,17 @@
 	
-package main
+package chapter4
 import(
 	"runtime/debug"
 )
-func test(){
+func DEMO_4_6_6test(){
 	panic("i am dead")
 }
 
-func main(){
+func DEMO_4_6_6main(){
 	defer func (){
 		if nil != recover(){
 			debug.PrintStack()
 		}
 	}()
-	test()
+	DEMO_4_6_6test()
 }

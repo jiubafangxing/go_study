@@ -1,5 +1,5 @@
 	
-package main
+package chapter6
 import(
 	"log"
 )
@@ -8,7 +8,7 @@ type N int
 func (n N) print1(){
 	log.Println(n)
 }
-func test(){
+func DEMO_6_1_4test(){
 	var n N = 1
 	p := &n
 	p.print1()
@@ -17,6 +17,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_6_1_4main(){
+	DEMO_6_1_4test()
 }

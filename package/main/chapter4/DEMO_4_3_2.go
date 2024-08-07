@@ -1,4 +1,4 @@
-package main
+package chapter4
 
 import (
 	"errors"
@@ -12,7 +12,7 @@ func div(x,y int) (int , error){
 	return 0, errors.New(" division by zero")
 }
 
-func main(){
+func DEMO_4_3_2main(){
 	result, err := div(4,2)
 	if(nil == err){
 		print("the result is ", result);

@@ -1,6 +1,6 @@
 	
-package main
-func test(){
+package chapter5
+func DEMO_5_4_2test(){
 	m :=map[string]int{
 		"a":1,
 		"b":2,
@@ -13,6 +13,6 @@ func test(){
 	delete(m, "d")
 }
 
-func main(){
-	test()
+func DEMO_5_4_2main(){
+	DEMO_5_4_2test()
 }

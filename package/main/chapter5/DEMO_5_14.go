@@ -1,10 +1,10 @@
 	
-package main
+package chapter5
 import(
 	"log"
 	"reflect"
 )
-func test(){
+func DEMO_5_14test(){
 	type user struct{
 		name string `姓名`
 		age int	`年龄`
@@ -20,6 +20,6 @@ func test(){
 	}
 }
 
-func main(){
-	test()
+func DEMO_5_14main(){
+	DEMO_5_14test()
 }

@@ -1,11 +1,11 @@
 	
-package main
+package chapter5
 import(
 	"log"
 	"unsafe"
 	"reflect"
 )
-func test(){
+func DEMO_5_2_12test(){
 	var a []int
 	v := []int{}
 	log.Println(a == nil, v == nil)
@@ -13,6 +13,6 @@ func test(){
 	log.Printf("v: %#v\n",(*reflect.SliceHeader)(unsafe.Pointer(&v)))
 }
 
-func main(){
-	test()
+func DEMO_5_2_12main(){
+	DEMO_5_2_12test()
 }

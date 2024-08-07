@@ -1,5 +1,5 @@
-package main
-func main(){
+package chapter3
+func chapter3_3_copy_slicedemomain(){
 	var arr [3]int  = [3]int{1,2,3}
 	for i,v := range arr{
 		println(i,v)

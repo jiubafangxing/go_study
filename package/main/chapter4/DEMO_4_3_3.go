@@ -1,9 +1,9 @@
-package main
+package chapter4
 import(
 	"errors"
 	"fmt"
 )
-func test(a, b int)(result int,err error){
+func DEMO_4_3_3test(a, b int)(result int,err error){
     if b == 0{
 	err = errors.New("division by zero")
 	return 
@@ -13,9 +13,9 @@ func test(a, b int)(result int,err error){
 
 }
 
-func main(){
-	result,err := test(1,0)
+func DEMO_4_3_3main(){
+	result,err := DEMO_4_3_3test(1,0)
 	fmt.Println(result, err)
-	result,err = test(4,2)
+	result,err = DEMO_4_3_3test(4,2)
 	fmt.Println(result, err)
 }

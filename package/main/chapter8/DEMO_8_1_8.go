@@ -1,10 +1,10 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"runtime"
 )
-func test(){
+func DEMO_8_1_8test(){
 	//gosched
 	runtime.GOMAXPROCS(1)
 	exit := make(chan struct{})
@@ -25,6 +25,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_8_1_8main(){
+	DEMO_8_1_8test()
 }

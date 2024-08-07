@@ -1,5 +1,5 @@
 	
-package main
+package chapter7
 import(
 	"log"
 )
@@ -10,7 +10,7 @@ type MyError struct{
 func (*MyError) Error()string{
 	return "error"
 }
-func test1(a int )(string,error){
+func DEMO_7_2_2test1(a int )(string,error){
 	if a < 0{
 		var e *MyError = new(MyError)
 		return "hello, err",e
@@ -19,8 +19,8 @@ func test1(a int )(string,error){
 	}
 }
 
-func test(){
-	result, err := test1(1)	
+func DEMO_7_2_2test(){
+	result, err := DEMO_7_2_2test1(1)	
 	if(nil != err){
 		log.Fatalln("err is not nil")
 	}else{
@@ -28,6 +28,6 @@ func test(){
 	}
 }
 
-func main(){
-	test()
+func DEMO_7_2_2main(){
+	DEMO_7_2_2test()
 }

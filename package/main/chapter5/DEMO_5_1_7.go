@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_1_7test(){
 	s := "abcd"	
 	a := []byte(s)
 	a[0] = 'c'
@@ -11,6 +11,6 @@ func test(){
 	log.Printf(news)
 }
 
-func main(){
-	test()
+func DEMO_5_1_7main(){
+	DEMO_5_1_7test()
 }

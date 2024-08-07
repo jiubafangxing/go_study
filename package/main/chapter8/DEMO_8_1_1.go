@@ -1,15 +1,15 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"time"
 )
-func test(){
+func DEMO_8_1_1test(){
 	go log.Println("hello")
-	log.Println("hello main")
+	log.Println("hello DEMO_8_1_1main")
 	time.Sleep(time.Second * 3)
 }
 
-func main(){
-	test()
+func DEMO_8_1_1main(){
+	DEMO_8_1_1test()
 }

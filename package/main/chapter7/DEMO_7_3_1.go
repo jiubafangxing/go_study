@@ -1,34 +1,34 @@
-	
-package main
-import(
+package chapter7
+
+import (
 	"log"
 )
-type stringer interface{
-	toString()string
+
+type DEMO_7_3_1stringer interface {
+	toString() string
 }
-type data struct{
+type data struct {
 	age int
 }
 
-func (d data)toString()string{
-	return "a" 
+func (d data) toString() string {
+	return "a"
 }
 
-
-func test(){
+func DEMO_7_3_1test() {
 	var d data = data{
-		age:1,
+		age: 1,
 	}
 	var d1 interface{} = d
-	if xv, ok := d1.(stringer);ok{
+	if xv, ok := d1.(DEMO_7_3_1stringer); ok {
 		log.Println(xv)
 	}
-	if n, ok := d1.(data);ok{
+	if n, ok := d1.(data); ok {
 		log.Println(n)
 	}
-	
+
 }
 
-func main(){
-	test()
+func DEMO_7_3_1main() {
+	DEMO_7_3_1test()
 }

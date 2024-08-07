@@ -1,9 +1,9 @@
 	
-package main
+package chapter8
 import(
 	"log"
 )
-func test(){
+func DEMO_8_2_4test(){
 	a, b:= make(chan int ), make(chan int , 3)
 	b <- 1
 	b <- 2
@@ -14,6 +14,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_8_2_4main(){
+	DEMO_8_2_4test()
 }

@@ -1,37 +1,38 @@
-	
-package main
-import(
+package chapter7
+
+import (
 	"log"
 )
-type tester interface{
-	stringer
-	test()
-}
-type stringer interface{
-	toString()(string)
-}
-type N int
 
-func (n *N) test(){
+type DEMO_7_1_4tester interface {
+	mystringer
+	DEMO_7_1_4test()
+}
+type mystringer interface {
+	toString() string
+}
+type DEMO_7_1_4N int
+
+func (n *DEMO_7_1_4N) DEMO_7_1_4test() {
 	log.Println(*n)
 }
 
-func (n *N)toString()(string){
+func (n *DEMO_7_1_4N) toString() string {
 	return "a"
 }
 
-func test1(){
-	var n N = 1
-	var tester1 tester = &n
-	tester1.test()
-	log.Println(tester1.toString())
-	var str1 stringer = tester1
+func DEMO_7_1_4test1() {
+	var n DEMO_7_1_4N = 1
+	var DEMO_7_1_4tester1 DEMO_7_1_4tester = &n
+	DEMO_7_1_4tester1.DEMO_7_1_4test()
+	log.Println(DEMO_7_1_4tester1.toString())
+	var str1 mystringer = DEMO_7_1_4tester1
 	log.Println(str1.toString())
 	//can not be used on  this way
-	//var tester2 tester = str1
-	//tester2.test()
+	//var DEMO_7_1_4tester2 DEMO_7_1_4tester = str1
+	//DEMO_7_1_4tester2.DEMO_7_1_4test()
 }
 
-func main(){
-	test1()
+func DEMO_7_1_4main() {
+	DEMO_7_1_4test1()
 }

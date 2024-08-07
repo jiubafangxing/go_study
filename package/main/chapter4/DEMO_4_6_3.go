@@ -1,9 +1,9 @@
 	
-package main
+package chapter4
 import(
 	"log"
 )
-func test(){
+func DEMO_4_6_3test(){
 	defer func(){
 		if err := recover() ; nil != err{
 			log.Fatalln(err)
@@ -14,6 +14,6 @@ func test(){
 	log.Println("still run ")
 }
 
-func main(){
-	test()
+func DEMO_4_6_3main(){
+	DEMO_4_6_3test()
 }

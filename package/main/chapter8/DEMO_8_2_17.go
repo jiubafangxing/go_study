@@ -1,5 +1,5 @@
 	
-package main
+package chapter8
 import(
 	"log"
 )
@@ -25,11 +25,11 @@ func  (p pool) put(b []byte){
 	}
 
 }
-func test(){
+func DEMO_8_2_17test(){
 	var p1 pool = NewPool(3)
 	log.Println(p1)
 }
 
-func main(){
-	test()
+func DEMO_8_2_17main(){
+	DEMO_8_2_17test()
 }

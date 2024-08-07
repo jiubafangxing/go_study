@@ -1,13 +1,13 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_1_11test(){
 	r :='你'
 	log.Printf("%T\n",r)
 }
 
-func main(){
-	test()
+func DEMO_5_1_11main(){
+	DEMO_5_1_11test()
 }

@@ -1,10 +1,10 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"sync"
 )
-func test(){
+func DEMO_8_1_5test(){
 	var wg sync.WaitGroup
 	wg.Add(1)
 	go func(){
@@ -17,9 +17,9 @@ func test(){
 		log.Println("child done")
 	}()	
 	wg.Wait()
-	log.Println("main listen child done")
+	log.Println("DEMO_8_1_5main listen child done")
 }
 
-func main(){
-	test()
+func DEMO_8_1_5main(){
+	DEMO_8_1_5test()
 }

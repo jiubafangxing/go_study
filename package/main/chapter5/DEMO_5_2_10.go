@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_10test(){
 	s1 := make([]int,3,5)
 	s2 := make([]int , 3)
 	s3 := []int{10,29,5:1}
@@ -12,6 +12,6 @@ func test(){
 	log.Println(s3,len(s3), cap(s3))
 }
 
-func main(){
-	test()
+func DEMO_5_2_10main(){
+	DEMO_5_2_10test()
 }

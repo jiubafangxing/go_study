@@ -1,6 +1,6 @@
-package main
+package chapter1
 
-func main() {
+func slice_demomain() {
 	array := make([]int, 0, 5)
 	for i := 0; i < 10; i++ {
 		array = append(array, i)

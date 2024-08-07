@@ -1,7 +1,7 @@
-package main
+package chapter3
 
-func main(){
-	for i:=1;i<10;i++{
+func chapter33_fordemomain() {
+	for i := 1; i < 10; i++ {
 		println(i)
 	}
 }

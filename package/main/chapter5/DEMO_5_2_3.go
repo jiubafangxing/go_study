@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_3test(){
 	type user struct{
 		name string
 		age int
@@ -15,6 +15,6 @@ func test(){
 	log.Printf("%#v",users)
 }
 
-func main(){
-	test()
+func DEMO_5_2_3main(){
+	DEMO_5_2_3test()
 }

@@ -1,4 +1,4 @@
-package main
+package chapter1
 
 func genClosureFunc(x string) func (){
 	return  func (){
@@ -6,7 +6,7 @@ func genClosureFunc(x string) func (){
 	}
 }
 
-func main(){
+func closure_demomain(){
 	fa :=genClosureFunc("a")
 	fb :=genClosureFunc("b")
 	fa()

@@ -1,6 +1,6 @@
-package main
+package chapter1
 
-func main() {
+func map_demomain() {
 	mymap := make(map[string]int)
 	mymap["a"] = 1
 	k, exist := mymap["b"]

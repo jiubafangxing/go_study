@@ -1,10 +1,10 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"runtime"
 )
-func test(){
+func DEMO_8_1_9test(){
 	exit := make(chan struct{})
 	go func(){
 		defer close(exit)
@@ -20,10 +20,10 @@ func test(){
 	}()
 
 	<- exit
-	log.Println("main exit")
+	log.Println("DEMO_8_1_9main exit")
 
 }
 
-func main(){
-	test()
+func DEMO_8_1_9main(){
+	DEMO_8_1_9test()
 }

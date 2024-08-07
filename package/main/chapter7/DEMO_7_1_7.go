@@ -1,5 +1,5 @@
 	
-package main
+package chapter7
 import(
 	"log"
 )
@@ -14,7 +14,7 @@ type user struct{
 func (u user) name1()string{
 	return u.name
 }
-func test(){
+func DEMO_7_1_7test(){
 	var u user = user{
 		name:"laoli",
 	}
@@ -22,6 +22,6 @@ func test(){
 	log.Println(i.(item).name1())
 }
 
-func main(){
-	test()
+func DEMO_7_1_7main(){
+	DEMO_7_1_7test()
 }

@@ -1,10 +1,10 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"sync"
 )
-func test(){
+func DEMO_8_2_7test(){
 	var wg sync.WaitGroup
 	start := make(chan struct{})
 	for i:=0;i<8;i++{
@@ -22,6 +22,6 @@ func test(){
 	wg.Wait()
 }
 
-func main(){
-	test()
+func DEMO_8_2_7main(){
+	DEMO_8_2_7test()
 }

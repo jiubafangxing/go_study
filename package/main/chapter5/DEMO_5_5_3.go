@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_5_3test(){
 	u := struct{
 		id int
 		name string
@@ -32,6 +32,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_5_5_3main(){
+	DEMO_5_5_3test()
 }

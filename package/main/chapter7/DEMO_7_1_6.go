@@ -1,37 +1,38 @@
-	
-package main
-import(
-	"log"
+package chapter7
+
+import (
 	"fmt"
+	"log"
 )
-type Ner interface{
+
+type Ner interface {
 	a()
 	b(int)
-	c(string)string
+	c(string) string
 }
-type N int
+type DEMO_7_1_6N int
 
-func (n N) a(){
+func (n DEMO_7_1_6N) a() {
 	log.Println(n)
 }
 
-func (n *N) b(a N){
-	*n = (*n) +a
+func (n *DEMO_7_1_6N) b(a DEMO_7_1_6N) {
+	*n = (*n) + a
 }
 
-func (n *N) c(b string)string{
-	return fmt.Sprintf("%s-%d",b, *n)
+func (n *DEMO_7_1_6N) c(b string) string {
+	return fmt.Sprintf("%s-%d", b, *n)
 }
 
-func test(){
-	var n N = 1
-	var a N = 1
+func DEMO_7_1_6test() {
+	var n DEMO_7_1_6N = 1
+	var a DEMO_7_1_6N = 1
 	n.a()
 	n.b(a)
 	log.Println(n)
 	log.Println(n.c("hello"))
 }
 
-func main(){
-	test()
+func DEMO_7_1_6main() {
+	DEMO_7_1_6test()
 }

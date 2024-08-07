@@ -1,14 +1,14 @@
 	
-package main
+package chapter4
 import "log"
-func test()(z int){
+func DEMO_4_5_3test()(z int){
 	defer func(){
 		z +=100
 	}()
 	return 100
 }
 
-func main(){
-	result := test()
+func DEMO_4_5_3main(){
+	result := DEMO_4_5_3test()
 	log.Println("result is ", result)
 }

@@ -1,15 +1,15 @@
 	
-package main
+package chapter7
 import(
 	"log"
 )
-func test(){
+func DEMO_7_1_2test(){
 	var t1, t2 interface{}
 	t1,t2 = 1,2
 	t1,t2 = []int{},[]int{} 
 	log.Println(t1 == t2)
 }
 
-func main(){
-	test()
+func DEMO_7_1_2main(){
+	DEMO_7_1_2test()
 }

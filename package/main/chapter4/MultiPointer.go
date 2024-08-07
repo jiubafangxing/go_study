@@ -1,18 +1,18 @@
 
-package main
-func test(p **int){
+package chapter4
+func MultiPointertest(p **int){
 	x :=1
 	*p = &x
 }
 
-func test2(p *int){
+func MultiPointertest2(p *int){
 	x :=2
 	*p = x
 }
-func main(){
+func MultiPointermain(){
 	var p *int
-	test(&p)
+	MultiPointertest(&p)
 	println(*p)
-	test2(p)
+	MultiPointertest2(p)
 	println(*p)
 }

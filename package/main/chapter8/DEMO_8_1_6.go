@@ -1,5 +1,5 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"sync"
@@ -13,13 +13,13 @@ func count(){
 	}
 	log.Println(x)
 }
-func test2(n int){
+func DEMO_8_1_6test2(n int){
 	for i:=0; i<n; i++{
 		count()
 	}	
 }
 
-func test( n int ){
+func DEMO_8_1_6test( n int ){
 	var wg sync.WaitGroup
 	for i:=0;i< n;i++{
 		x := i
@@ -33,7 +33,7 @@ func test( n int ){
 	wg.Wait()
 }
 
-func main(){
+func DEMO_8_1_6main(){
 	n := runtime.GOMAXPROCS(0)
-	test2(n)
+	DEMO_8_1_6test2(n)
 }

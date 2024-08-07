@@ -1,10 +1,10 @@
 	
-package main
+package chapter5
 import(
 	"log"
 	"strings"
 )
-func test(){
+func DEMO_5_1_9test(){
 	s :=make([]string,100)
 	for i:=0;i<100;i++{
 		s[i] = "a"
@@ -14,6 +14,6 @@ func test(){
 	
 }
 
-func main(){
-	test()
+func DEMO_5_1_9main(){
+	DEMO_5_1_9test()
 }

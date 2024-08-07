@@ -1,5 +1,5 @@
 	
-package main
+package chapter4
 import(
 	"fmt"
 	"log"
@@ -11,15 +11,15 @@ type DivErr struct {
 func (DivErr) Error()(string){
 	return "division by zero"
 }
-func test(a, b int )(int,error){
+func DEMO_4_6_2test(a, b int )(int,error){
 	if b == 0{
 		return 0, DivErr{a,b}
 	}
 	return a/b, nil
 }
 
-func main(){
-	result, err := test(1,0)
+func DEMO_4_6_2main(){
+	result, err := DEMO_4_6_2test(1,0)
 	if nil != err{
 		switch e:= err.(type){
 			case  DivErr:

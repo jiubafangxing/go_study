@@ -1,15 +1,15 @@
 	
-package main
+package chapter7
 import(
 	"log"
 )
-func test(){
+func DEMO_7_2_1test(){
 	var a interface{} = nil
 	var b interface{}= (*int)(nil)
 	log.Println(a == nil)
 	log.Println(b == nil)
 }
 
-func main(){
-	test()
+func DEMO_7_2_1main(){
+	DEMO_7_2_1test()
 }

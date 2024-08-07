@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_5_5test(){
 	type data struct{
 		x int
 		y map[string]int
@@ -18,6 +18,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_5_5_5main(){
+	DEMO_5_5_5test()
 }

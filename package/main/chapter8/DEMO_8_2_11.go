@@ -1,9 +1,9 @@
 	
-package main
+package chapter8
 import(
 	"log"
 )
-func test(){
+func DEMO_8_2_11test(){
 	data := make(chan int)
 	var send chan <- int = data
 	var rece <- chan int = data
@@ -16,6 +16,6 @@ func test(){
 	log.Println(rece)
 }
 
-func main(){
-	test()
+func DEMO_8_2_11main(){
+	DEMO_8_2_11test()
 }

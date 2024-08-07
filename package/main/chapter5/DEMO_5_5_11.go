@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_5_11test(){
 	type attr  struct{
 		perm int
 
@@ -22,6 +22,6 @@ func test(){
 	log.Println(file.perm)
 }
 
-func main(){
-	test()
+func DEMO_5_5_11main(){
+	DEMO_5_5_11test()
 }

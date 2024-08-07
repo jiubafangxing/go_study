@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_15test(){
 	d :=[...]int{0,10,10,20,120,301,320,120,123,120,12}
 	s1 := d[3:7]
 	s2 :=s1[1:6]
@@ -14,6 +14,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_5_2_15main(){
+	DEMO_5_2_15test()
 }

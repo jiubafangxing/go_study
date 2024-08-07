@@ -1,11 +1,11 @@
-package main
+package chapter1
 
-func div(a , b int)(int ){
-  	defer println("call dev", a,b)	
-	return a/b;
+func div1(a, b int) int {
+	defer println("call dev", a, b)
+	return a / b
 }
 
-func main(){
-	div(1,2)
-	div(1,0)
+func defer_demomain() {
+	div1(1, 2)
+	div1(1, 0)
 }

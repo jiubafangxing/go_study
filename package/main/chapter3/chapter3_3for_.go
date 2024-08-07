@@ -1,5 +1,5 @@
-package main
-func main(){
+package chapter3
+func chapter3_3for_main(){
 	a := "thlias"
 	for i, c :=range a {
 		println(i, c)

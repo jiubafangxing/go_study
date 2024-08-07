@@ -1,9 +1,9 @@
 	
-package main
+package chapter8
 import(
 	"log"
 )
-func test(){
+func DEMO_8_2_8test(){
 	//buffer data from chan
 	data := make(chan int,2)
 	data <- 1
@@ -23,6 +23,6 @@ func test(){
 	}
 }
 
-func main(){
-	test()
+func DEMO_8_2_8main(){
+	DEMO_8_2_8test()
 }

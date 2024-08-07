@@ -1,5 +1,5 @@
 	
-package main
+package chapter6
 import(
 	"log"
 )
@@ -12,7 +12,7 @@ func (n N) changeAge(){
 func call(b func()){
 	b()
 }
-func test(){
+func DEMO_6_4_3test(){
  	var a N = 1
 	n := &a
 	(*n)++
@@ -22,6 +22,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_6_4_3main(){
+	DEMO_6_4_3test()
 }

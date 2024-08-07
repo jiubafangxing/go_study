@@ -1,5 +1,5 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
@@ -9,7 +9,7 @@ type node struct{
 	id int
 	next *node
 }
-func test(){
+func DEMO_5_5_1test(){
 	var n1 node =node{
 		id:1,
 	}
@@ -23,6 +23,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_5_5_1main(){
+	DEMO_5_5_1test()
 }

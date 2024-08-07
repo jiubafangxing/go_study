@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_19test(){
 	s :=[]int{12,2,34,3,23,112}
 	s2 := s[3:5]
 	s3 := copy(s,s2)
@@ -11,6 +11,6 @@ func test(){
 	log.Println(s)
 }
 
-func main(){
-	test()
+func DEMO_5_2_19main(){
+	DEMO_5_2_19test()
 }

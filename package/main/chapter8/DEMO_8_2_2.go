@@ -1,9 +1,9 @@
 	
-package main
+package chapter8
 import(
 	"log"
 )
-func test(){
+func DEMO_8_2_2test(){
 	c := make(chan string,2)
 	c <- "1"
 	c <- "2"
@@ -11,6 +11,6 @@ func test(){
 	log.Println(<-c)
 }
 
-func main(){
-	test()
+func DEMO_8_2_2main(){
+	DEMO_8_2_2test()
 }

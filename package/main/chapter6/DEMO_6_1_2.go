@@ -1,5 +1,5 @@
 
-package main
+package chapter6
 import(
 	"log"
 )
@@ -13,7 +13,7 @@ func (n *N) pointer(){
 	(*n)++
 	log.Printf("v:%p,%v\n",n, *n)
 }
-func test(){
+func DEMO_6_1_2test(){
 	var n N  = 3
 	n.value()
 	log.Printf("v:%p,%v\n",&n, n)
@@ -21,6 +21,6 @@ func test(){
 	log.Printf("v:%p,%v\n",&n, n)
 }
 
-func main(){
-	test()
+func DEMO_6_1_2main(){
+	DEMO_6_1_2test()
 }

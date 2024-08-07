@@ -1,12 +1,12 @@
 	
-package main
+package chapter8
 import(
 	"time"
 	"sync"
 	"runtime"
 	"fmt"
 )
-func main() {
+func DEMO_8_2_18main() {
     runtime.GOMAXPROCS(4)
     var wg sync.WaitGroup
 

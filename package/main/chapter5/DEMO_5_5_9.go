@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_5_9test(){
 	var a = struct{}{}
 	var b = [3]struct{}{}
 	var c = [0]int{}
@@ -15,6 +15,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_5_5_9main(){
+	DEMO_5_5_9test()
 }

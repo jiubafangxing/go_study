@@ -1,11 +1,11 @@
 	
-package main
+package chapter4
 
 import(
 	"os"
 	"log"
 )
-func main(){
+func DEMO_4_5_1main(){
 	
 	//f,err :=os.Open("./Template.go")
 	f,err :=os.Open("./Template1.go")

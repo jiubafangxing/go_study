@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_5_2test(){
 	type user struct{
 		name string
 		age int
@@ -18,6 +18,6 @@ func test(){
 	log.Println(u1,u2)
 }
 
-func main(){
-	test()
+func DEMO_5_5_2main(){
+	DEMO_5_5_2test()
 }

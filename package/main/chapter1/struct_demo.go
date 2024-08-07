@@ -1,4 +1,4 @@
-package main
+package chapter1
 
 import "fmt"
 
@@ -11,7 +11,7 @@ type child struct {
 	child_name string
 }
 
-func main() {
+func struct_demomain() {
 	var a child
 	a.parent_name = "li"
 	a.child_name = "wang"

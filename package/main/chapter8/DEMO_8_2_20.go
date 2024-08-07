@@ -1,5 +1,5 @@
 	
-package main
+package chapter8
 import(
 	"os"
 	"log"
@@ -30,12 +30,12 @@ func waitExit(){
 	<- exits.signals
 }
 
-func test(){
+func DEMO_8_2_20test(){
 	atExit(func(){log.Println("exit1")})
 	atExit(func(){log.Println("exit2")})
 	waitExit()
 }
 
-func main(){
-	test()
+func DEMO_8_2_20main(){
+	DEMO_8_2_20test()
 }

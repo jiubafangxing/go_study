@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_4_3test(){
 	dict := map[string]int{}
 	for i:=0;i<10;i++{
 		dict[string('a'+i)] = i
@@ -16,6 +16,6 @@ func test(){
 	}
 }
 
-func main(){
-	test()
+func DEMO_5_4_3main(){
+	DEMO_5_4_3test()
 }

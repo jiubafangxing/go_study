@@ -1,11 +1,11 @@
 	
-package main
+package chapter5
 import(
 	"log"
 	"reflect"
 	"unsafe"
 )
-func test(){
+func DEMO_5_1_5test(){
 	s := "abcdef"
 	s1 :=s[:3]
 	log.Println(s1)
@@ -13,6 +13,6 @@ func test(){
 	log.Printf("head address %#v\n", (*reflect.StringHeader)(unsafe.Pointer(&s1)))
 }
 
-func main(){
-	test()
+func DEMO_5_1_5main(){
+	DEMO_5_1_5test()
 }

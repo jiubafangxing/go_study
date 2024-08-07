@@ -1,5 +1,5 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"sync"
@@ -8,7 +8,7 @@ type receiver struct{
 	sync.WaitGroup
 	data chan int
 }
-func test(){
+func DEMO_8_2_16test(){
 	rece := &receiver{
 		data: make(chan int),
 	}
@@ -25,6 +25,6 @@ func test(){
 	rece.Wait()
 }
 
-func main(){
-	test()
+func DEMO_8_2_16main(){
+	DEMO_8_2_16test()
 }

@@ -1,4 +1,4 @@
-package main
+package chapter1
 import(
 	"errors"
 )
@@ -9,7 +9,7 @@ func div(a, b int)(int ,error){
 	return a/b, nil
 }
 
-func main(){
+func function_multi_return_demomain(){
 	x,y := div(1,2)
 	println(x,y)
 	c,d := div(1,0)

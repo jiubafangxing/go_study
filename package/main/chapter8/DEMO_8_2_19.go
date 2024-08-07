@@ -1,11 +1,11 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"time"
 	"os"
 )
-func test(){
+func DEMO_8_2_19test(){
 	go func(){
 		for{
 			select{
@@ -29,6 +29,6 @@ func test(){
 	<- (chan struct{})(nil)
 }
 
-func main(){
-	test()
+func DEMO_8_2_19main(){
+	DEMO_8_2_19test()
 }

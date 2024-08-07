@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_11test(){
 	type data struct{
 	 *int
 	 string
@@ -17,6 +17,6 @@ func test(){
 	log.Println(*data1.int)
 }
 
-func main(){
-	test()
+func DEMO_5_11main(){
+	DEMO_5_11test()
 }

@@ -1,9 +1,9 @@
 	
-package main
+package chapter4
 import(
 "log"
 )
-func test(){
+func DEMO_4_5_2test(){
 	 x :=1
 	 y :=2
 	 defer func(a int){
@@ -13,6 +13,6 @@ func test(){
 	 y +=100
 }
 
-func main(){
-	test()
+func DEMO_4_5_2main(){
+	DEMO_4_5_2test()
 }

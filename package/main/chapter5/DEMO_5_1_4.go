@@ -1,14 +1,14 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_1_4test(){
 	s := "ab"+
 		"cd"
 	log.Println(s == "abcd")
 }
 
-func main(){
-	test()
+func DEMO_5_1_4main(){
+	DEMO_5_1_4test()
 }

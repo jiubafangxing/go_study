@@ -1,15 +1,15 @@
-package main
+package chapter4
 import(
 	"fmt"
 )
-func test()(int, s string, e error){
+func DEMO_4_3_5test()(int, s string, e error){
 
 	//can not compile
 	s = "a"
 	return 1,  "a" nil
 }
 
-func main(){
-	a,b,err := test()
+func DEMO_4_3_5main(){
+	a,b,err := DEMO_4_3_5test()
 	fmt.Println(a,b,err)	
 }

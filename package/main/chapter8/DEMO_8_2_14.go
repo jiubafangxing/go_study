@@ -1,10 +1,10 @@
 	
-package main
+package chapter8
 import(
 	"log"
 	"time"
 )
-func test(){
+func DEMO_8_2_14test(){
 	done := make(chan struct{})
 	data := make(chan  int)
 	go func(){
@@ -32,6 +32,6 @@ func test(){
 	<- done
 }
 
-func main(){
-	test()
+func DEMO_8_2_14main(){
+	DEMO_8_2_14test()
 }

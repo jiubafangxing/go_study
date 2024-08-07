@@ -1,8 +1,8 @@
-package main
+package chapter4
 import(
 	"fmt"
 )
-func main(){
+func DEMO_4_4_2main(){
 	a := func(x, y int)(int){
 		return x+y
 	}

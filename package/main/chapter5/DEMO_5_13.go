@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_13test(){
 	type file struct{
 		name string
 	}
@@ -24,6 +24,6 @@ func test(){
 
 }
 
-func main(){
-	test()
+func DEMO_5_13main(){
+	DEMO_5_13test()
 }

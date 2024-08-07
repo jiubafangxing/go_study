@@ -1,11 +1,11 @@
-package main
+package chapter5
 
 import (
 	"errors"
 	"log"
 )
 
-func test() {
+func DEMO_5_2_16test() {
 	stack := make([]int, 0, 5)
 	push := func(a int) error {
 		l := len(stack)
@@ -43,6 +43,6 @@ func test() {
 
 }
 
-func main() {
-	test()
+func DEMO_5_2_16main() {
+	DEMO_5_2_16test()
 }

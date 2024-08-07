@@ -1,12 +1,4 @@
-package main
-	func errorConvert(){
-		x :=100
-		p :=*(int(&x))
-		println(p)
-	}
+package chapter2
 
-
-	func main(){
-		errorConvert();
-	}
-
+func chapter25_connvertdemomain() {
+}

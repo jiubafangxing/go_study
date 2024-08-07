@@ -1,10 +1,10 @@
-package main
+package chapter4
 import (
 
 "fmt"
 )
 
-func test()(z int){
+func DEMO_4_3_4test()(z int){
 	{
 		z :=1
 		// 这是一个局部变量
@@ -16,8 +16,8 @@ func test()(z int){
 	return
 }
 
-func main(){
-	result := test()
+func DEMO_4_3_4main(){
+	result := DEMO_4_3_4test()
 	fmt.Println("result is ", result)
 }
 

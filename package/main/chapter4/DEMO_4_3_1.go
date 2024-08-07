@@ -1,11 +1,11 @@
-package main
-func test() int {
+package chapter4
+func DEMO_4_3_1test() int {
 	for{
 		break
 	}
 	// this is err , can not compile
 }
-func main(){
-	test()
+func DEMO_4_3_1main(){
+	DEMO_4_3_1test()
 }
 

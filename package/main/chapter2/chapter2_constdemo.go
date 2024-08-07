@@ -1,6 +1,6 @@
-package main
+package chapter2
 
-func main() {
+func chapter2_constdemomain() {
 	const (
 		a int = 1
 		b

@@ -1,9 +1,9 @@
 	
-package main
+package chapter5
 import(
 	"log"
 )
-func test(){
+func DEMO_5_2_14test(){
 	x :=[][]int{
 		{1,2,3},
 		{10},
@@ -16,6 +16,6 @@ func test(){
 	log.Println(x[2])
 }
 
-func main(){
-	test()
+func DEMO_5_2_14main(){
+	DEMO_5_2_14test()
 }

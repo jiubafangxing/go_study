@@ -1,6 +1,6 @@
-package main
+package chapter2
 
-func main() {
+func chapter2_1zero_valuemain() {
 	var i int
 	println(i)
 	i++
