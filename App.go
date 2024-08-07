@@ -1,12 +1,19 @@
 package main
 
-import "github.com/jiubafangxing/go_study/package/main/chapter9"
+import (
+	"log"
+	"unsafe"
+
+	"github.com/jiubafangxing/go_study/package/main/chapter10"
+)
 
 func main() {
-	//chapter9.Chapter9_1_1Test()
-	//chapter9.Chapter9_1_2Test()
-	//chapter9.Chapter913Test()
-	//chapter9.Chapter914Test()
-	//chapter9.Chapter915Test()
-	chapter9.Chapter916Test()
+	c := chapter10.BuildC1011Data()
+	p := (*struct {
+		x int
+		y string
+	})(unsafe.Pointer(c))
+	p.y = "hello"
+	log.Println(p.x)
+	log.Println(p.y)
 }

@@ -11,6 +11,6 @@ func chapter915print[T int | string](t T) {
 func Chapter915Test() {
 	chapter915print(1)
 	chapter915print("abc")
-//	chapter915print(true)
+	//	chapter915print(true)
 	return
 }
