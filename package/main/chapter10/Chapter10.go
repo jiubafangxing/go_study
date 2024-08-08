@@ -1,5 +1,5 @@
 package chapter10
 
-func C10test() {
-
+func init() {
+	print("this is about package ")
 }
