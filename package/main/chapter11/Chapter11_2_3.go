@@ -3,13 +3,24 @@ import (
 	"log"
 	"reflect"
 )
-type C1123User {
+type C1123User struct{
 	Name string
 	Age int
 } 
 
 func Chapter1123Test(){
-	C1123User{
+	user :=C1123User{
+		Name:"laoli",
+		Age:21,
 	}
-	//TODO
+	v :=reflect.ValueOf(&user)
+	if !v.CanInterface(){
+		log.Println("")
+	}
+	iv,ok := v.Interface().(*C1123User)
+	if !ok{
+		log.Fatalln("Interface err")
+	}
+	iv.Age++
+	log.Println(v)
 }

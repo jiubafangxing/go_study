@@ -1,18 +1,19 @@
 package chapter11
+
 import (
-"reflect"
-"log"
+	"log"
+	"reflect"
 )
 
-func Chapter1116Test(){
+func Chapter1116Test() {
 	m := manager{
-		level:1,
+		level: 1,
 	}
 	m.user.name = "john"
 	m.user.age = 12
 	mt := reflect.TypeOf(m)
-	f,_ := mt.FieldByName("name")
+	f, _ := mt.FieldByName("name")
 	log.Printf("name : %s, type : %s\n", f.Name, f.Type)
-	f = mt.FieldByIndex([]int{1,1})
+	f = mt.FieldByIndex([]int{1, 1})
 	log.Printf("name : %s, type : %s\n", f.Name, f.Type)
 }

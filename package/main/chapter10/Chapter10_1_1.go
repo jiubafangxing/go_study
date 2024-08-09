@@ -5,7 +5,7 @@ type c1011data struct {
 	y string
 }
 
-type C1011data struct{
+type C1011data struct {
 	x int `field:"x"`
 	y string
 }
