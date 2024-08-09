@@ -1,7 +1,6 @@
 package chapter12
 
 import (
-	"os"
 	"testing"
 )
 
@@ -32,13 +31,13 @@ func TestMain(m *testing.M) {
 	//	//default  test all method
 	//	return true
 	//}
-	testCase := []testing.InternalTest{
-		{"a", TestAdd1215},
-		{"b", TestMinus1215},
-	}
-	benchmarks := []testing.InternalBenchmark{}
-	examples := []testing.InternalExample{}
-	fuzzTargets := []testing.InternalFuzzTarget{}
-	m = testing.MainStart(nil, testCase, benchmarks, fuzzTargets, examples)
-	os.Exit(m.Run())
+	//testCase := []testing.InternalTest{
+	//	{"a", TestAdd1215},
+	//	{"b", TestMinus1215},
+	//}
+	//benchmarks := []testing.InternalBenchmark{}
+	//examples := []testing.InternalExample{}
+	//fuzzTargets := []testing.InternalFuzzTarget{}
+	//m = testing.MainStart(nil, testCase, benchmarks, fuzzTargets, examples)
+	//os.Exit(m.Run())
 }

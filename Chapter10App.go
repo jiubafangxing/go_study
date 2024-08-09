@@ -1,6 +1,6 @@
 package main
 
-func main() {
+func main10() {
 	//c := chapter10.BuildC1011Data()
 	//p := (*struct {
 	//	x int

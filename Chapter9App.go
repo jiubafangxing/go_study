@@ -1,6 +1,6 @@
 package main
 
-import "github.com/jiubafangxing/go_study/package/main/chapter9"
+//import "github.com/jiubafangxing/go_study/package/main/chapter9"
 
 func chapter9main() {
 	//chapter9.Chapter9_1_1Test()
